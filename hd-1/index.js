@@ -1,4 +1,4 @@
-import { serve } from "../deps";
+import { serve } from "https://deno.land/std@0.114.0/http/server.ts";
 
 
 serve((_req) => {
